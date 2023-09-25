@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <script src="qrcode.js"></script>
+    <style>
+        button {
+            padding: 10px 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            text-transform: capitalize;
+
+        }
+
+        .space {
+            /* border: 5px solid; */
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 30%;
+            padding: 10px;
+            text-align: center;
+        }
+        .center {
+            /* border: 5px solid; */
+            margin: auto;
+            width: 50%;
+            padding: 10px;
+            text-align: center;
+            width: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <script src="index.js"></script>
+    <div class="center">
+        <h1 id="pop" class="center">Generate password</h1>
+        <button id="myBtn">Click to generate!</button>
+        <h3 id="outputpass"></h3>
+        <!-- <div id="copy"></div> -->
+        <div id="qrcode" class="space"></div>
+    </div>
+
+</body>
+
+</html>
